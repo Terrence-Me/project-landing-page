@@ -1,8 +1,10 @@
 body {
-  background-color: snow;
+  background-color: ghostwhite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   position: fixed;
+  top: 0px;
   background-color: darkolivegreen;
   border-bottom: 10px solid darkseagreen;
   width: 100%;
@@ -48,13 +50,14 @@ h2 {
 }
 
 .section-one {
-  margin: 0;
+  padding: 175px;
 }
 .section-two {
-  background-color: coral;
-  border-top: 5px solid rgb(209, 63, 10);
+  background-color: #8f708d;
+  border-top: 5px solid #556b2f;
   height: auto;
   width: 100%;
+  padding: 30px;
   margin-top: 10px;
 }
 
@@ -64,9 +67,10 @@ img {
 }
 
 footer {
-  background-color: darkolivegreen;
-  border-bottom: 5px solid rgb(48, 47, 47);
+  background-color: #556b2f;
+  border-bottom: 5px solid #8f708d;
   height: 30px;
+  width: 100%;
   color: beige;
   text-align: center;
   padding-top: 20px;
@@ -74,11 +78,11 @@ footer {
 }
 
 form {
-  height: 40px;
+  height: 60px;
   width: 300px;
   padding: 20px;
   display: block;
-  text-align: ;
+  text-align: center;
   border: 3px solid black;
   margin: 0px auto;
   border-radius: 5mm;
@@ -86,4 +90,8 @@ form {
 
 label {
   margin: 10px;
+}
+
+button {
+  margin: 5px;
 }
